@@ -27,8 +27,4 @@ public class InputValidation {
             throw new MyException("※ 전화번호 형식은 [010-XXXX-XXXX]입니다.");
         }
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> ee924042580619ee106b157a2969108cd4230c36

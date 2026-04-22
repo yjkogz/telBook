@@ -3,6 +3,8 @@ package service;
 import dto.TelDto;
 import repository.TelBookRepository;
 
+import java.util.List;
+
 public class TelBookService {
     private final TelBookRepository repository;
 
@@ -19,8 +21,8 @@ public class TelBookService {
             System.out.println("정상적으로 저장되었습니다.");
         }
     }
-<<<<<<< HEAD
+
+    public List<TelDto> getListAll() {
+        return repository.FindAll();
+    }
 }
-=======
-}
->>>>>>> ee924042580619ee106b157a2969108cd4230c36
