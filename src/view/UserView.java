@@ -84,4 +84,8 @@ public class UserView {
 
     public void searchOne() {
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ee924042580619ee106b157a2969108cd4230c36

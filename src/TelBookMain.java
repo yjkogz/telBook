@@ -10,7 +10,11 @@ import java.util.Scanner;
 public class TelBookMain {
     public static void main(String[] args) throws MyException {
 //        Connection connection = DBConn.getConnection();
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> ee924042580619ee106b157a2969108cd4230c36
         Scanner sc = new Scanner(System.in);
         TelBookRepository repository = new TelBookRepository();
         TelBookService service = new TelBookService(repository);
@@ -46,4 +50,8 @@ public class TelBookMain {
             }
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ee924042580619ee106b157a2969108cd4230c36
